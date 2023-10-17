@@ -1,6 +1,6 @@
 import boto3
 
-resource = boto3.resource("dynamodb", region_name='ap-northeast-2', aws_access_key_id='AKIA5U4WVG6HFLMJUMOE', aws_secret_access_key='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')
+resource = boto3.resource("dynamodb", region_name='ap-northeast-2', aws_access_key_id='', aws_secret_access_key='')
 
 print(resource)
 client = boto3.client('dynamodb')
